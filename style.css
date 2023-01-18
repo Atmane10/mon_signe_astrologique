@@ -1,0 +1,32 @@
+nav {
+    /* Définit les styles pour l'élément de type "nav" */
+    background-color: #483024; /* Définit la couleur de fond de la navbar */
+  }
+  
+  nav ul {
+    /* Définit les styles pour les éléments "ul" à l'intérieur de l'élément "nav" */
+    list-style-type: none; /* Enlève les puces de la liste */
+    margin: 0; /* Supprime les marges autour de la liste */
+    padding: 0; /* Supprime les paddings autour de la liste */
+    overflow: hidden; /* Cache les éléments dépassants */
+  }
+  
+  nav li {
+    /* Définit les styles pour les éléments "li" à l'intérieur de l'élément "nav ul" */
+    float: left; /* Aligne les éléments à gauche */
+  }
+  
+  nav a {
+    /* Définit les styles pour les éléments "a" à l'intérieur de l'élément "nav li" */
+    display: block; /* Affiche les éléments en block pour remplir tout l'espace disponible */
+    color: white; /* Définit la couleur du texte en blanc */
+    text-align: center; /* Centre le texte */
+    padding: 14px 16px; /* Ajoute un padding de 14px en haut et en bas, et 16px à gauche et à droite */
+    text-decoration: none; /* Enlève la décoration de lien par défaut */
+  }
+  
+  nav a:hover {
+    /* Définit les styles pour les éléments "a" lorsque la souris est sur celui-ci */
+    background-color: #ec9a86; /* Change la couleur de fond de l'élément */
+  }
+  
